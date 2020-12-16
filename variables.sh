@@ -10,3 +10,9 @@ echo "Variables can be intorpolated like : $testvar : if it is inside \"\""
 echo "this variable is not declared : $anonymous"
 anonymous='famous'
 echo "it is now $anonymous"
+
+#export command will make the variabe available in the current scope
+# syntax : export $anonymous
+
+# sourcing the file will make the variables available in the current session
+#syntax : . ./variables.sh
