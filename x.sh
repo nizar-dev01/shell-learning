@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in *.sh
+for i in *.sh */*.sh
 do
   chmod +x $i
 done
