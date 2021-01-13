@@ -1,3 +1,5 @@
+#!/bin/sh
+
 i=1
 while [ "$i" -le "50" ]
 do
